@@ -4,5 +4,4 @@
 
 ## Includes:
 
-## CCC Waterloo
-## Other
+# -CCC Waterloo
