@@ -1,4 +1,4 @@
-#Contests
+# Contests
 
 ## All the contests I have done for practice
 ### Complete/Incomplete Marked at the top
