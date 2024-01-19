@@ -1,5 +1,6 @@
-# https://www.cemc.uwaterloo.ca/contests/computing/past_ccc_contests/2015/stage%201/seniorEn.pdf
-# INCOMPLETE
+# JERSEYS; INCOMPLETE
+# https://www.cemc.uwaterloo.ca/contests/computing/past_ccc_contests/2015/stage%201/seniorEn.pdf #2
+
 
 def main():
     J = int(input("# of jerseys: "))
