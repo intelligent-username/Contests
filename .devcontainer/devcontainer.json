@@ -1,8 +1,7 @@
 {
-    "postCreateCommand": "npm install",
-    "extensions": ["ms-vscode.vscode-typescript-next"],
-    "settings": {
-      "workbench.colorTheme": "Dark"
-    }
+  "postCreateCommand": "npm install",
+  "extensions": ["ms-vscode.vscode-typescript-next"],
+  "settings": {
+    "workbench.colorTheme": "Dark"
   }
-  
+}
