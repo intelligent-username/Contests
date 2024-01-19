@@ -8,16 +8,18 @@ def main():
 
     print("Getting size of jerseys")
 
-    jerseys = []
+    jerseys = {}
     requested = []
 
     for j in range(J):
-        jerseys.append(input(f"Jersey #{j}'s size: "))
+        jerseys.append(input(f"Jersey #{j+1}'s size: "))
+
     
     for a in range(A):
         # simpler version
         input = input(f"Input request {a}: ")
         requested.append(tuple(input.split()))
+        
     
 
 if __name__ == "__main__":
