@@ -8,4 +8,6 @@
 
 ## So far Includes
 
-### -CCC Waterloo
+### CCC Junnior (Waterloo)
+
+### CCC Senior (Waterloo)
