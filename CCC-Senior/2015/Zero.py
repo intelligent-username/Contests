@@ -1,5 +1,5 @@
-# COMPLETE
-# https://www.cemc.uwaterloo.ca/contests/computing/past_ccc_contests/2015/stage%201/seniorEn.pdf (2015)
+# BOSS SAYS; COMPLETE
+# https://www.cemc.uwaterloo.ca/contests/computing/past_ccc_contests/2015/stage%201/seniorEn.pdf (2015) #1
 
 def main():
     k = int(input("# of #s to compute: "))
@@ -8,12 +8,13 @@ def main():
     inputs = []
 
     for i in range(k):
-        temp = int(input("Number: "))
-        if temp > 0:
-            inputs.append(temp)
-        elif temp == 0:
-            inputs.pop(0)
-        else:
+        temp = int(input("Boss says: "))
+        try:
+            if temp > 0:
+                inputs.append(temp)
+            elif temp == 0:
+                inputs.pop(0)
+        except:
             raise Exception("Invalid input")
     # Won't follow input specification so the program is understandable by humans
     print("Profit:", sum(inputs))

@@ -1,5 +1,5 @@
 # Are We There Yet: COMPLETE
-# https://www.cemc.uwaterloo.ca/contests/computing/past_ccc_contests/2018/stage%201/juniorEF.pdf
+# https://www.cemc.uwaterloo.ca/contests/computing/past_ccc_contests/2018/stage%201/juniorEF.pdf #3
 positions = [0]
 temp = 0
 output = ""
