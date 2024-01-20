@@ -1,4 +1,5 @@
-# https://cemc.uwaterloo.ca/contests/computing/past_ccc_contests/2022/ccc/seniorEF.pdf
+# GOOD FOURS AND GOOD FIVES; INCOMPLETE
+# https://cemc.uwaterloo.ca/contests/computing/past_ccc_contests/2022/ccc/seniorEF.pdf #1
 # YET TO FINISH, BUG with 20 for example, 5, 4
 
 def main():
