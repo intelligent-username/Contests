@@ -20,11 +20,12 @@ for k in range(G):
     groups.append(input(f"Group #{k+1}: "))
 
 violations = 0
-    
+
+# NOTE: RN it's checking the EXACT string rather than the two/three letter in the string  (ie if F E is required F D E won't detect as requirement met. Finish later)
 for required in must_be:
     if required not in groups:
         violations += 1
-
+print(violations)
 for illegals in must_not_be:
     if illegals in groups:
         violations += 1    

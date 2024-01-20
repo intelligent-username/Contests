@@ -1,6 +1,7 @@
 # GOOD FOURS AND GOOD FIVES; INCOMPLETE
 # https://cemc.uwaterloo.ca/contests/computing/past_ccc_contests/2022/ccc/seniorEF.pdf #1
 # YET TO FINISH, BUG with 20 for example, 5, 4
+# REDO, Streamline the whole thing?
 
 def main():
     N = int(input("")) # Determine in how many ways this number can be formed by using 4s and 5s
