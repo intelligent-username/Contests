@@ -3,7 +3,7 @@
 
 # 2*R  + 3*S + D
 
-n = int(input(""))
+n = int(input()) # # Of Computers
 
 lists = []
 scores = {}
@@ -11,8 +11,8 @@ scores = {}
 for x in range(n):
     lists.append(input().split())
 
-for index, j in enumerate(lists):
-    score = int(int(j[1])) * 2 + int(int(j[2])) * 3 + int(j[3])
+for j in lists:
+    score = int(j[1]) * 2 + int(j[2]) * 3 + int(j[3])
     scores[j[0]]= score
 
 highest = max(scores, key=scores.get)
