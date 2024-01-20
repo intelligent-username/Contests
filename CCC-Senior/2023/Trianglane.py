@@ -1,18 +1,15 @@
-# Initiate lists to store the rows in
-row1 = []
-row2 = []
+# TRIANGLANE: COMPLETE
+# https://cemc.uwaterloo.ca/contests/computing/past_ccc_contests/2023/ccc/seniorEF.pdf #1
+# Not gonna follow exact required input methods for readability. Can simply remove text in the inputs to meet requirements.
 
-# Get the length of the columns
-columns = int(input("#: "))
+# Initiate Variables Needed for calculations, etc. 
+columns = int(input("Length of Columns: "))
 
-# Get the contents of the rows as a string
-row1_input = input("Input 1: ")
-row2_input = input("Input 2: ")
+row1 = list(map(int, input("Row 1: ").split()))
+row2 = list(map(int, input("Row 2: ").split()))
+print("Row 1:", row1, "\n\nRow 2:", row2)
 
 # Store the string inputs into the lists by converting to bools
-for i in range(columns):
-    row1.append(bool(int(row1_input[i])))
-    row2.append(bool(int(row2_input[i])))
 
 # Add false index to the end of each list to avoid going out of bounds during the loop
 row1.append(False)
