@@ -1,4 +1,4 @@
-# Airport GATES; COMPLETE
+# Airport GATES; COMPLETE? (Takes way too long)
 # https://cemc.uwaterloo.ca/contests/computing/past_ccc_contests/2015/stage%201/seniorEn.pdf #3
 
 G = int(input()) 
@@ -33,4 +33,4 @@ for x in range(P):
     if not Accomplishment:
         break
 
-print("ANASWER:", landings)
+print(landings)
