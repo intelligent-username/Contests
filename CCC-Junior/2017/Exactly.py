@@ -1,4 +1,4 @@
-# Exactly electrical: COMPLETE
+# Exactly Electrical: COMPLETE
 # https://www.cemc.uwaterloo.ca/contests/computing/past_ccc_contests/2017/stage%201/juniorEF.pdf #3
 
 start = list(map(int, input.split()))
