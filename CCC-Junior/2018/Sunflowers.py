@@ -4,17 +4,17 @@
 def main():
     # Get number of rows, columns as N
     N = int(input())
-    log = []
+    Log = []
 
-    # Add the rotated/unrotated table to 'log' list
+    # Add the rotated/unrotated table to 'Log' list
     for x in range(N):
-        log.append(input().split())
+        Log.append(input().split())
 
-    # Use checker & rotator functions to fix the log
-    log = checker(log, N)
+    # Use checker & rotator functions to fix the Log
+    Log = checker(Log, N)
 
     # Then print the output properly
-    for row in log:
+    for row in Log:
         print(" ".join(map(str, row)))
 
 def checker(matrix, size):
