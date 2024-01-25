@@ -1,4 +1,4 @@
-# Modern Art; IN PROGRESS
+# Modern Art; COMPLETE
 # https://cemc.uwaterloo.ca/contests/computing/past_ccc_contests/2021/ccc/seniorEF.pdf #2
 
 # Number of rows
@@ -10,23 +10,21 @@ N = int(input())
 # Artist's choices
 K = int(input())
 
-Canvas = [["B"] * N] * M
-print("Canvas is", Canvas)
+Canvas = [["B" for _ in range(N)] for _ in range(M)]
+# print("Canvas is", Canvas)
 
 for x in range(K):
     request = input().split()
     direction = request[0]
-    index = int(request[1])
+    index = int(request[1]) - 1
 
     if direction == "R":
         # Then do row
-        for x in range(N):
-            if Canvas[index][x] == "B":
-                Canvas[index][x] = "G"
+        for L in range(N):
+            if Canvas[index][L] == "B":
+                Canvas[index][L] = "G"
             else:
-                Canvas[index][x] = "B"
-
-            print("Canvas is ", Canvas)
+                Canvas[index][L] = "B"
 
     else:
         # Else it's "C", do column
@@ -36,9 +34,9 @@ for x in range(K):
                 j[index] = "G"
             else:
                 j[index] = "B"
-            print("Canvas is", Canvas)
             
 
-print(Canvas)
-answer = Canvas.count("G")
+# print(Canvas)
+flat_canvas = [item for sublist in Canvas for item in sublist]
+answer = flat_canvas.count("G")
 print(answer)
