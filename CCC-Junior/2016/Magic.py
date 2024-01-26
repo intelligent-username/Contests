@@ -2,10 +2,10 @@
 # https://www.cemc.uwaterloo.ca/contests/computing/past_ccc_contests/2016/stage%201/juniorEn.pdf #2
 def main():
     square = []
-    squares.append(list(map(int(),input().split())))
-    squares.append(list(map(int(),input().split())))
-    squares.append(list(map(int(),input().split())))
-    squares.append(list(map(int(),input().split())))
+    squares.append(list(map(int,input().split())))
+    squares.append(list(map(int,input().split())))
+    squares.append(list(map(int,input().split())))
+    squares.append(list(map(int,input().split())))
 
     str = checker(square)
     print(str)
