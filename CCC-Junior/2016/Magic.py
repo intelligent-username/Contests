@@ -1,4 +1,4 @@
-# Magic Squares; IN PROGRESS
+# Magic Squares; COMPLETE
 # https://www.cemc.uwaterloo.ca/contests/computing/past_ccc_contests/2016/stage%201/juniorEn.pdf #2
 def main():
     square = []
