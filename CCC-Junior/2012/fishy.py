@@ -1,5 +1,5 @@
 def main()
-    inp = list(map(int, input.split()))
+    inp = list(map(int, input().split()))
     pos_neg_zero = ""
     for x in range(len(inp)-1):
         difference = inp(x) - inp(x+1)
