@@ -14,5 +14,8 @@ grid = []
 for _ in range(R):
     grid.append(input().split())
 
+temp = 0
 for x in grid:
-    print("Grid:", x)
+    temp += 1
+    print("Grid #", temp, x)
+
