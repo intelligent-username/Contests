@@ -19,24 +19,35 @@ def main():
         grid.append(input().split())
 
     for r in range(R):
-        check_horizontals(W, grid, R, C)
+        check_horizontals(grid[r], R, C, W)
 
 
     print(H)
 
-def check_horizontals(word, grid, rows, columns, move = False):
-    for row in range(rows):
-        for column in range(columns):
-            if grid[row][column] == word[column]:
-                continue
-            else:
-                break
-                
+def check_horizontals(grid_row, rows, columns, word):
+    word_found = False
+    word_len = len(word)
+    temp = 0
+    frontier = ""
+    frontier_len = 0
+    while not word_found and columns - word_len > 0:
+        if frontier_len == 0:
+            if grid_row[temp] == word[0]:
+                temp += 1
+                frontier += word[0]
+                frontier_len += 1
+        elif grid_row[temp] == word[frontier_len]:
+            frontier += word[frontier_len]
+            frontier_len += 1
+        
+        if frontier == word:
+            word_found = True
+    
 
-def check_verticals(word, grid, rows, columns):
+def check_verticals():
     ...
 
-def check_diagonals(word, grid, rows, columns):
+def check_diagonals():
     ...
 
 if __name__ == "__main__":
