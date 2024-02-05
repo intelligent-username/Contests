@@ -12,7 +12,7 @@ C = int(input())
 grid = []
 
 for _ in range(R):
-    grid.append(list(map(int, input().split())))
+    grid.append(input().split())
 
 for x in grid:
     print("Grid:", x)
