@@ -28,7 +28,9 @@ def check_horizontals(word, grid, rows, columns, move = False):
     for row in range(rows):
         for column in range(columns):
             if grid[row][column] == word[column]:
-                
+                continue
+            else:
+                break
                 
 
 def check_verticals(word, grid, rows, columns):
