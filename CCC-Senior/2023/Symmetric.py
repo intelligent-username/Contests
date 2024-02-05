@@ -1,6 +1,5 @@
-# Symmetric Mountains; IN PROGRESS
+# Symmetric Mountains; INCOMPLETE
 #https://cemc.uwaterloo.ca/contests/computing/past_ccc_contests/2023/ccc/seniorEF.pdf #2
-# Gitdoc test test
 
 # We will measure the asymmetric value of a crop as the sum of the absolute difference for
 # Every pair of mountains equidistant from the midpoint of the crop
