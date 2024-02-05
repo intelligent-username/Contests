@@ -1,4 +1,4 @@
-# WORD HUNT IN PROGRESS
+# WORD HUNT: IN PROGRESS
 # https://cemc.uwaterloo.ca/contests/computing/past_ccc_contests/2023/ccc/juniorEF.pdf #5
 
 # String of Uppercase letters (TARGET WORD)
@@ -11,7 +11,12 @@ R = int(input())
 C = int(input())
 grid = []
 
+# Number of times the word appears
+H = 0
+
 for _ in range(R):
     grid.append(input().split())
 
 
+
+print(H)
