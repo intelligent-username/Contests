@@ -13,7 +13,8 @@ def main():
     pairs = set()
 
     for x in range(N):
-        pairs.add((stu_1[x], stu_2[x]))
+        tuple = (stu_1[x], stu_2[x])
+        pairs.add(sorted(tuple))
     print("Pairs is,", pairs)
     pairs = list(pairs)
     print("Pairs is,", pairs)
