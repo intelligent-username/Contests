@@ -8,3 +8,11 @@ stu_1 = input().split() # Names of N students separated by single spaces; no two
 stu_2 = input().split() # Partner of each student. 
 
 # The student in position i in stu_1 is the parter of the student in position i in stu_2, and vice versa
+# Also they can't partner with theyselves
+
+pairs = set()
+
+for x in range(len(stu_1)):
+    pairs.append(tuple(stu_1[x], stu_2[x]))
+
+
