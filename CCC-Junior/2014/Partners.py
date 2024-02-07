@@ -1,4 +1,4 @@
-# Assigning Partners; IN PROGRESS
+# Assigning Partners; COMPLETE
 # https://cemc.uwaterloo.ca/contests/computing/past_ccc_contests/2014/stage%201/juniorEn.pdf #5
 
 def main():
@@ -15,7 +15,6 @@ def main():
     for x in range(N):
         pair_tuple = tuple(sorted((stu_1[x], stu_2[x])))
         pairs.add(pair_tuple)
-    print("Pairs is,", pairs)
 
     for name in set(stu_1):
         counter = sum(1 for pair in pairs if pair[0] == name)
