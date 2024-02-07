@@ -4,24 +4,23 @@ def main1():
     print(main2())
 
 def main2():
-    N = int(input()) # Number of students in the class
+    N = int(input())  # Number of students in the class
 
-    stu_1 = input().split() # Names of N students separated by single spaces; no two students have same name don't even trip
+    stu_1 = input().split()  # Names of N students separated by single spaces; no two students have the same name, don't even trip
+    stu_2 = input().split()  # Partner of each student.
 
-    stu_2 = input().split() # Partner of each student. 
-
-    # The student in position i in stu_1 is the parter of the student in position i in stu_2, and vice versa
-    # Also they can't partner with theyselves
+    # The student in position i in stu_1 is the partner of the student in position i in stu_2, and vice versa
+    # Also, they can't partner with themselves
 
     pairs = set()
 
     for x in range(N):
-        pairs.append(tuple(stu_1[x], stu_2[x]))
+        pairs.add((stu_1[x], stu_2[x]))
 
     pairs = list(pairs)
 
-    for name in stu_1:
-        counter = pairs.count(name)
+    for name in set(stu_1):
+        counter = sum(1 for pair in pairs if pair[0] == name)
         if counter > 1:
             return "bad"
 
