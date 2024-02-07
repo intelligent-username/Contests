@@ -1,4 +1,4 @@
-# TRIANGLE TIMES: IN PROGRESS
+# TRIANGLE TIMES: COMPLETE
 # https://cemc.uwaterloo.ca/contests/computing/past_ccc_contests/2014/stage%201/juniorEn.pdf #1
 
 angle1 = int(input())
