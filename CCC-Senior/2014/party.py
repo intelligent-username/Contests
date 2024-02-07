@@ -10,15 +10,15 @@ print("The list is rn:", friends)
 for j in range(m):
     multiples = int(input()) # Remove multiples of this number
     temp = 1
-    while temp * multiples < len(friends):
+    while temp * multiples <= len(friends):
         friends[(multiples * temp) - 1] = False
         temp += 1
 
     print("Iteration", j, "of the list:", friends)
 
     for x in friends:
-        if not x: #if x i false
-            friends.pop(x)
+        if not x: #if x is false
+            friends.remove(x)
     print("List after removal:", friends)
 
 for r in friends:
