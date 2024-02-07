@@ -18,7 +18,7 @@ for j in range(m):
         except:
             break
     for x in friends:
-        if x == False:
+        if not x: #if x i false
             friends.pop(x)
 
 for r in friends:
