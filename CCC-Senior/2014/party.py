@@ -1,7 +1,12 @@
+# Party Inivitation: In Progress
+# https://cemc.uwaterloo.ca/contests/computing/past_ccc_contests/2014/stage%201/seniorEn.pdf #1
+
+
 k = int(input())
 m = int(input())
 
-friends = [_ for _ in range(k)]
+friends = list(range(1, k + 1))
+print(friends)
 
 for j in range(m):
     multiples = int(input())
@@ -19,10 +24,6 @@ for j in range(m):
 for r in friends:
     print(r)
 
-# k = int(input())
-# m = int(input())
-
-# friends = list(range(1, k + 1))
 
 # for j in range(m):
 #     multiples = int(input())
