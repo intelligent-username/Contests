@@ -1,9 +1,7 @@
 # Assigning Partners; IN PROGRESS
 # https://cemc.uwaterloo.ca/contests/computing/past_ccc_contests/2014/stage%201/juniorEn.pdf #5
-def main1():
-    print(main2())
 
-def main2():
+def main():
     N = int(input())  # Number of students in the class
 
     stu_1 = input().split()  # Names of N students separated by single spaces; no two students have the same name, don't even trip
@@ -27,4 +25,4 @@ def main2():
 
     return "good"
 
-main1()
+print(main())
