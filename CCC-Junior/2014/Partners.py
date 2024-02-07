@@ -16,8 +16,9 @@ def main2():
 
     for x in range(N):
         pairs.add((stu_1[x], stu_2[x]))
-
+    print("Pairs is,", pairs)
     pairs = list(pairs)
+    print("Pairs is,", pairs)
 
     for name in set(stu_1):
         counter = sum(1 for pair in pairs if pair[0] == name)
