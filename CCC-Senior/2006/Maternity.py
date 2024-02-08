@@ -1,4 +1,4 @@
-# Maternity; IN PROGRESS
+# Maternity; DONE
 # https://cemc.uwaterloo.ca/contests/computing/past_ccc_contests/2006/stage1/seniorEn.pdf #1
 
 # Doing an easier question for a change
