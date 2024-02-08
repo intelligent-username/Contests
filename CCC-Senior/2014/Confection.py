@@ -27,7 +27,9 @@ def sliderchecker(cars, N):
         else:
             branch.append(cars[q])
             cars.remove(q)
-    
+    if not highest_rn and not branch:
+        return "Y"
+    print("Branch is", branch)
     while branch:
         if branch[0] == highest_rn + 1:
             highest_rn += 1
