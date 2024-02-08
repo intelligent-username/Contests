@@ -30,7 +30,7 @@ def sliderchecker(cars, N):
             highest_rn += 1
             branch.pop(-1)
         else:
-            branch.append(cars[q])  # Use pop to remove by index
+            branch.append(cars[q])
 
     if highest_rn == N and not branch:
         return "Y"
