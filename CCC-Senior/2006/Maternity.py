@@ -1,8 +1,7 @@
 # Maternity; IN PROGRESS
 # https://cemc.uwaterloo.ca/contests/computing/past_ccc_contests/2006/stage1/seniorEn.pdf #1
 
-# Doing an easier question for a change
-
+# Input genetic profiles of parents
 p1 = input()
 p2 = input()
 
@@ -10,29 +9,30 @@ p2 = input()
 X = int(input())
 offspring = []
 
+# Input attributes of each baby
 for _ in range(X):
     offspring.append(input())
 
 possibilities = []
 
+# Check each baby
 for each in offspring:
-    temp = True # Be optimistic and assume it is their child
-    for char in each:
+    temp = True  # Be optimistic and assume it is their child
+    for i, char in enumerate(each):
         if char.isupper():
-            if char in p1 or char in p2:
-                continue
-            else:
+            # Check if the dominant allele is present in the corresponding position of either parent
+            if char not in (p1[i].upper(), p2[i].upper()):
                 temp = False
+                break
         else:
-            if char in p1 and char in p2:
-                continue
-            else: 
+            # Check if the recessive allele is present in the corresponding position of both parents
+            if char not in (p1[i].lower(), p2[i].lower()):
                 temp = False
+                break
 
-        if not temp:
-            possibilities.append(False)
-            break
+    possibilities.append(temp)
 
+# Output results
 for x in possibilities:
     if x:
         print("Possible baby")
