@@ -36,3 +36,6 @@ def sliderchecker(cars, N):
             return "N"
             
     return "Y"
+
+if __name__ == "__main__":
+    main()
