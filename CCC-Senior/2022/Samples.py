@@ -11,4 +11,8 @@ N, M, K = input().split()
 # M: highest accepted pitch
 # A piece with exactly K good samples is required
 
+# For example, if N = 3, M = 2, K = 5:
+
+# Possible pitches are:
+# [1, 1, 1], [1, 1, 2], [1, 2, 1], [2, 1, 1], [1, 2, 2], [2, 1, 2], [2, 2, 1], [2, 2, 2]
 
