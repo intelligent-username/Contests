@@ -16,8 +16,8 @@ def main():
 
 # This function will check if the cars can be stacked in 1,2,3....N order
 def sliderchecker(cars, N):
-    for q in range(N-1):
-            if cars[q] < cars[q+1]: #
+    for q in range(N-1, 0, -1):
+            if cars[q] < cars[q-1]: #
                 return "N"
             
     return "Y"
