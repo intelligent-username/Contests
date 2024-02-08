@@ -15,4 +15,4 @@ N, M, K = input().split()
 
 # Possible pitches are:
 # [1, 1, 1], [1, 1, 2], [1, 2, 1], [2, 1, 1], [1, 2, 2], [2, 1, 2], [2, 2, 1], [2, 2, 2]
-
+# I don't understand the question
