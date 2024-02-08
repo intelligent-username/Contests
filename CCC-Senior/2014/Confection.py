@@ -26,12 +26,11 @@ def sliderchecker(cars, N):
     for q in range(N-1, -1, -1):  # Fix the range to include the first element
         if cars[q] == highest_rn + 1:
             highest_rn += 1
-            del cars[q]
         elif branch[-1] == highest_rn + 1:
             highest_rn += 1
-            branch.pop()
+            branch.pop(-1)
         else:
-            branch.append(cars.pop(q))  # Use pop to remove by index
+            branch.append(cars[q])  # Use pop to remove by index
 
     if highest_rn == N and not branch:
         return "Y"
