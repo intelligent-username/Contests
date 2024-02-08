@@ -18,7 +18,7 @@ def main():
     for x in answers:
         print(x)
 
-# This function will check if the cars can be stacked in 1,2,3....N order
+# Will check if the cars can be stacked in 1,2,3....N order
 def sliderchecker(cars, N):
     highest_rn = 0
     branch = []
