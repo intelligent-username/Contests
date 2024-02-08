@@ -1,4 +1,4 @@
-# CONFECTION: IN PROGRESS
+# CONFECTION: INCOMPLETE
 # https://cemc.uwaterloo.ca/contests/computing/past_ccc_contests/2014/stage%201/seniorEn.pdf #3
 def main():
     T = int(input()) # # of tests
