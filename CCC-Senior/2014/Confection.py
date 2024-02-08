@@ -26,7 +26,7 @@ def sliderchecker(cars, N):
     for q in range(N-1, -1, -1):  # Fix the range to include the first element
         if cars[q] == highest_rn + 1:
             highest_rn += 1
-        elif branch[-1] == highest_rn + 1:
+        elif branch and branch[-1] == highest_rn + 1: # "Branch and" ensures the branch is not empty
             highest_rn += 1
             branch.pop(-1)
         else:
