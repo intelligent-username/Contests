@@ -39,7 +39,7 @@ for _ in range(N):
     # One pair is not checked by the for loop above; the 'first and last' pair
     if not already_violated:
         x1 = temp[0]
-        x2 = temp[1]
+        y1 = temp[1]
         x2 = temp[-2]
         y2 = temp[-1]
         if (x1 in x_range or x2 in x_range) and (y1 in y_range or y2 in y_range):
