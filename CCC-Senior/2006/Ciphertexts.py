@@ -15,6 +15,7 @@ keys = {}
 for r in range(len(pt1)):
     one = pt1[r]
     two = ct1[r]
+    print(f"One is {one} and two is {two}")
     if one not in keys:
         keys[one] = two
         keys[two] = one
@@ -31,9 +32,9 @@ for r in range(len(pt1)):
 #         print()
 
 for x in ct2:
-    try:
+    if x in keys:
         pt2 += keys[x]
-    except:
+    else:
         pt2 += "."
 
 print(pt2)
