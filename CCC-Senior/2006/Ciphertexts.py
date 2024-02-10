@@ -15,18 +15,17 @@ keys = {}
 for r in range(len(pt1)):
     one = pt1[r]
     two = ct1[r]
-    print(f"One is {one} and two is {two}")
+    if one in keys:
+        print(f"{one} was seen before")
     if one not in keys:
         keys[one] = two
         keys[two] = one
 
 
-
 # For testing delete later
+# for a,b in keys.items():
 
-for a,b in keys.items():
-
-    print(f"{a} maps to {b}    |    ")
+#     print(f"{a} maps to {b}    |    ")
 
 for x in ct2:
     if x in keys:
