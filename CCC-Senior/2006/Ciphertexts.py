@@ -17,6 +17,8 @@ for r in range(len(pt1)):
     keys[pt1[r]]= ct1[r]
     keys[ct1[r]]= pt1[r]
 
+print("The keys are", keys)
+
 for x in ct2:
     try:
         pt2 += keys[x]
