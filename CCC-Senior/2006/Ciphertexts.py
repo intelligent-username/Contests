@@ -29,7 +29,6 @@ for r in range(len(pt1)):
 
 for x in ct2:
     if x in keys:
-        print(f"keys[x] is {keys[x]}")
         pt2 += keys[x]
     else:
         pt2 += "."
