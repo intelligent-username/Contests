@@ -9,7 +9,7 @@ x_range = range(Romy[0], Jules[0] + 1)
 y_range = range(Romy[1], Jules[1] + 1)
 violations = 0
 
-N = int(input()) # Number of windows
+N = int(input()) # Number of buildings
 
 # I will assume the buildings won't be bigger than the distance between Rom and Jul
 for _ in range(N):
