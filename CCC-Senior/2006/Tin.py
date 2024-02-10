@@ -23,3 +23,5 @@ for _ in range(N):
             if temp[j+1] >= Romy[1] and temp[j+1] <= Jules[1] or temp[j+1] >= Jules[1] and temp[j] <= Romy[1]:
                 # AND the y-coordinates are between/on the house(s)
                 violations += 1
+
+print(violations)
