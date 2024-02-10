@@ -12,3 +12,6 @@ ct2 = input()
 
 keys = {}
 
+for r in range(len(p1)):
+    temp = sort(pt1[r], ct[r])
+    keys[temp[0]]: temp[1]
