@@ -28,9 +28,9 @@ for _ in range(N):
         x2, y2 = temp[j + 2], temp[j + 3]
         # x1 is the first x-coordinate. x2 is the second x-coordinate
         # y1 is the first y-coordinate. y2 is the second y-coordinate
-        if x1 in x_range or x2 in x_range:
+        if range(x1, x2) in x_range:
             # If the x-coordinates are between/on the house(s)
-            if y1 in y_range or y2 in y_range:
+            if range(y1,y2) in y_range:
                 # AND the y-coordinates are between/on the house(s)
                 violations += 1
                 already_violated = True
@@ -42,7 +42,7 @@ for _ in range(N):
         y1 = temp[1]
         x2 = temp[-2]
         y2 = temp[-1]
-        if (x1 in x_range or x2 in x_range) and (y1 in y_range or y2 in y_range):
+        if (range(x1, x2) in x_range) and (range(y1,y2) in y_range):
             violations += 1
     
 
