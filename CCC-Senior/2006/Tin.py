@@ -5,8 +5,8 @@ temp = list(map(int,input().split()))
 
 Romy = (temp[0], temp[1])
 Jules = (temp[2], temp[3])
-x_range = range(Romy[0], Jules[0])
-y_range = range(Romy[1], Jules[1])
+x_range = range(Romy[0], Jules[0] + 1)
+y_range = range(Romy[1], Jules[1] + 1)
 violations = 0
 
 N = int(input()) # Number of windows
@@ -24,10 +24,8 @@ for _ in range(N):
     corner_count = temp[0]
     # Check each corner
     for j in range(0, corner_count - 2, 2):
-        x1 = temp[j]
-        y1 = temp[j+1]
-        x2 = temp[j+2]
-        y2 = temp[j+3]
+        x1, y1 = temp[j], temp[j + 1]
+        x2, y2 = temp[j + 2], temp[j + 3]
         # x1 is the first x-coordinate. x2 is the second x-coordinate
         # y1 is the first y-coordinate. y2 is the second y-coordinate
         if x1 in x_range or x2 in x_range:
@@ -44,7 +42,7 @@ for _ in range(N):
         x2 = temp[1]
         x2 = temp[-2]
         y2 = temp[-1]
-        if (x1 in x_range or x2 in x_range) and (12 in y_range or y2 in y_range):
+        if (x1 in x_range or x2 in x_range) and (y1 in y_range or y2 in y_range):
             violations += 1
     
 
