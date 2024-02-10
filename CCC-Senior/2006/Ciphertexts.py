@@ -23,13 +23,10 @@ for r in range(len(pt1)):
 
 
 # For testing delete later
-# temp = 0
-# for a,b in keys.items():
 
-#     print(f"Key {a}, item {b}    |    ", end = "")
-#     if temp == 4:
-#         temp = 0
-#         print()
+for a,b in keys.items():
+
+    print(f"{a} maps to {b}    |    ")
 
 for x in ct2:
     if x in keys:
