@@ -9,6 +9,7 @@ violations = 0
 
 N = int(input()) # Number of windows
 
+# I will assume the buildings won't be bigger than the distance between Rom and Jul
 for _ in range(N):
     # Each input is: number of corners the building has
     # Followed by the coordinates of the inputs.
