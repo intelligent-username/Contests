@@ -15,8 +15,10 @@ keys = {}
 for r in range(len(pt1)):
     one = pt1[r]
     two = ct1[r]
-    keys[one] = two
-    keys[two] = one
+    if one not in keys:
+        keys[one] = two
+    if two not in keys:
+        keys[two] = one
 
 
 
