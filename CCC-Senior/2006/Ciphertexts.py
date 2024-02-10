@@ -1,5 +1,5 @@
 # Attack of the Ciphertexts; IN PROGRESS
-# https://cemc.uwaterloo.ca/contests/computing/past_ccc_contests/2006/stage1/seniorEn.pdf #1 
+# https://cemc.uwaterloo.ca/contests/computing/past_ccc_contests/2006/stage1/seniorEn.pdf #2
 
 pt1 = input()
 ct1 = input()
@@ -12,7 +12,15 @@ ct2 = input()
 
 keys = {}
 
-for r in range(len(p1)):
+for r in range(len(pt1)):
     
     keys[pt1[r]]= ct1[r]
     keys[ct1[r]]= pt1[r]
+
+for x in ct2:
+    try:
+        pt2 += keys[x]
+    except:
+        pt2 += "."
+
+print(pt2)
