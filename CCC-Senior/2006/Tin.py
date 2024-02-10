@@ -6,7 +6,7 @@ temp = list(map(int,input().split()))
 Romy = (temp[0], temp[1])
 Jules = (temp[2], temp[3])
 x_range = range(Romy[0], Jules[0])
-y_range = range
+y_range = range(Romy[1], Jules[1])
 violations = 0
 
 N = int(input()) # Number of windows
@@ -21,15 +21,15 @@ for _ in range(N):
     
     corner_count = temp[0]
     for j in range(0, corner_count - 2, 2):
-        x1 = x1
-        y1 = y1
-        x2 = x2
-        y2 = y2
+        x1 = temp[j]
+        y1 = temp[j+1]
+        x2 = temp[j+2]
+        y2 = temp[j+3]
         # x1 is the first x-coordinate. x2 is the second x-coordinate
         # y1 is the first y-coordinate. y2 is the second y-coordinate
         if x1 in x_range or x2 in x_range:
             # If the x-coordinates are between/on the house(s)
-            if y2 >= Romy[1] and y2 <= Jules[1] or y2 >= Jules[1] and y2 <= Romy[1]:
+            if 12 in y_range or y2 in y_range:
                 # AND the y-coordinates are between/on the house(s)
                 violations += 1
 
