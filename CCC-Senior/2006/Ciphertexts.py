@@ -1,4 +1,4 @@
-# Attack of the Ciphertexts; IN PROGRESS
+# Attack of the Ciphertexts; COMPLETE
 # https://cemc.uwaterloo.ca/contests/computing/past_ccc_contests/2006/stage1/seniorEn.pdf #2
 
 pt1 = input()
@@ -15,18 +15,10 @@ keys = {}
 for r in range(len(pt1)):
     one = pt1[r]
     two = ct1[r]
-    print(f"One is {one} and Two is {two}")
     if one not in keys:
-        keys[one] = two
+        keys[two] = one
     if two not in keys:
         keys[two] = one
-
-
-
-# For testing delete later
-# for a,b in keys.items():
-
-#     print(f"{a} maps to {b}    |    ")
 
 for x in ct2:
     if x in keys:
