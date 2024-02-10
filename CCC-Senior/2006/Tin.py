@@ -17,9 +17,11 @@ for _ in range(N):
     # Followed by the coordinates of the inputs.
     # All on one line, ofc
 
+    # temp stores the shape
     temp = list(map(int, input().split()))
     
     corner_count = temp[0]
+    # Check each corner
     for j in range(0, corner_count - 2, 2):
         x1 = temp[j]
         y1 = temp[j+1]
@@ -32,5 +34,8 @@ for _ in range(N):
             if 12 in y_range or y2 in y_range:
                 # AND the y-coordinates are between/on the house(s)
                 violations += 1
+                break
+    # One pair is not checked by the for loop above; the 'first and last' pair
+    
 
 print(violations)
