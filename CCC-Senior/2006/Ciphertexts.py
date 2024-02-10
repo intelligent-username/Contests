@@ -15,11 +15,9 @@ keys = {}
 for r in range(len(pt1)):
     one = pt1[r]
     two = ct1[r]
-    if one in keys:
-        print(f"{one} was seen before")
-    if one not in keys:
-        keys[one] = two
-        keys[two] = one
+    keys[one] = two
+    keys[two] = one
+
 
 
 # For testing delete later
