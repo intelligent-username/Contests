@@ -13,10 +13,13 @@ ct2 = input()
 keys = {}
 
 for r in range(len(pt1)):
-    print("Pt1 is", pt1[r])
-    print("Ct1 is", ct1[r])
-    keys[pt1[r]]= ct1[r]
-    keys[ct1[r]]= pt1[r]
+    one = pt1[r]
+    two = ct1[r]
+    if one not in keys:
+        keys[one] = two
+        keys[two] = one
+
+
 
 # For testing delete later
 # temp = 0
