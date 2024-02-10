@@ -26,7 +26,6 @@ for r in range(len(pt1)):
 #     print(f"{a} maps to {b}    |    ")
 
 for x in ct2:
-    print("X:", x)
     if x in keys:
         print(f"keys[x] is {keys[x]}")
         pt2 += keys[x]
