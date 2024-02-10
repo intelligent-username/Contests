@@ -15,7 +15,7 @@ N = int(input()) # Number of buildings
 for _ in range(N):
     # Each input is: number of corners the building has
     # Followed by the coordinates of the inputs.
-    # All on one line, ofc
+    # All on one line
 
     # temp stores the shape
     temp = list(map(int, input().split()))
@@ -38,10 +38,8 @@ for _ in range(N):
 
     # One pair is not checked by the for loop above; the 'first and last' pair
     if not already_violated:
-        x1 = temp[0]
-        y1 = temp[1]
-        x2 = temp[-2]
-        y2 = temp[-1]
+        x1, y1 = temp[0], temp[1]
+        x2, y2 = temp[-2], temp[-1]
         if (range(x1, x2) in x_range) and (range(y1,y2) in y_range):
             violations += 1
     
