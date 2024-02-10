@@ -13,11 +13,19 @@ ct2 = input()
 keys = {}
 
 for r in range(len(pt1)):
-    
+    print("Pt1 is", pt1[r])
+    print("Ct1 is", ct1[r])
     keys[pt1[r]]= ct1[r]
     keys[ct1[r]]= pt1[r]
 
-print("The keys are", keys)
+# For testing delete later
+# temp = 0
+# for a,b in keys.items():
+
+#     print(f"Key {a}, item {b}    |    ", end = "")
+#     if temp == 4:
+#         temp = 0
+#         print()
 
 for x in ct2:
     try:
