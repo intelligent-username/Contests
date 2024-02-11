@@ -25,7 +25,7 @@ for x in uncoded:
         letter_pos = letters.index(x)
         next_vowel_pos = False
         previous_vowel_pos = False
-        for r in range(letter_pos, -1, 1):
+        for r in range(letter_pos, 25, 1):
             if letters[r] in vowels:
                 next_vowel_pos = r
                 break
