@@ -32,7 +32,7 @@ for x in uncoded:
         for s in range(letter_pos, 0, -1):
             if letters[s] in vowels:
                 previous_vowel_pos = s
-                break
+                break   
         
         if next_vowel_pos < previous_vowel_pos:
             coded += letters[next_vowel_pos]
