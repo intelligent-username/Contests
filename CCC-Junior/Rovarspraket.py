@@ -17,6 +17,8 @@ uncoded = input()
 coded = ""
 
 for x in uncoded:
+    coded += x
+
     if x in vowels:
         continue
     else:
