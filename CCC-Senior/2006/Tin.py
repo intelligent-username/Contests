@@ -1,4 +1,4 @@
-# Tin Can Telephone: INCOMPLETE IN PROGRESS
+# Tin Can Telephone: INCOMPLETE, IN PROGRESS
 # https://cemc.uwaterloo.ca/contests/computing/past_ccc_contests/2006/stage1/seniorEn.pdf #3
 
 temp = list(map(int,input().split()))
