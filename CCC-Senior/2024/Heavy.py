@@ -4,16 +4,26 @@
 def initial_check(list, char1, char2):
     
     length = len(list)
-    
+    truth1 = True
+    truth2 = True
+
+
     for x in range(0, length, 2):
         if list[x] != char1:
             truth = False
     
     for r in range(1, length, 2):
         if list[r] != char2:
-            truth = False
+            truth2 = False
 
-    return True
+    if truth1 and truth2:
+        return False
+    elif truth1:
+        truth1
+    elif truth2:
+        return truth2
+
+    return False
 
 # A letter is heavy if it appears more than once
 # Otherwise it's light
