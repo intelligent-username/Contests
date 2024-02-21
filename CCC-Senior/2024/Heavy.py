@@ -29,7 +29,7 @@ for string in inputs:
             light.add(string[i])
         
         elif string[i] in heavy:
-
+            
         
         else: # Final condition; it's in light, so must be added to heavy
             heavy.add(string[i])
