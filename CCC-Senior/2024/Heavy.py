@@ -8,7 +8,6 @@ def initial_check(list):
     for j in range(0, length, 2):
         if temp == "":
             temp = list[j]
-            truth = True
         elif list[j] != temp:
             truth = False
     for r in range(1, length, 2):
