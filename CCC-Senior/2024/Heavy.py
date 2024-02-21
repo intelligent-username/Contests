@@ -15,7 +15,7 @@ for _ in range(T):
 
 # Output
 for string in inputs:
-    alternating = False
+    alternating = True
 
     for i in range(1, N):
         if string[i] != string[i - 1]:
