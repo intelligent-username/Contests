@@ -7,14 +7,15 @@ def initial_check(list, char1, char2):
     truth1 = True
     truth2 = True
 
-
     for x in range(0, length, 2):
         if list[x] != char1:
             truth = False
+            break
     
     for r in range(1, length, 2):
         if list[r] != char2:
             truth2 = False
+            break
 
     if truth1 and truth2:
         return False
