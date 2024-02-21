@@ -8,6 +8,7 @@ T, N = list(map(int, input().split()))
 inputs = []
 heavy = set()
 light = set()
+outputs = []
 
 # Collect input strings
 for _ in range(T):
@@ -19,7 +20,7 @@ for string in inputs:
 
     for i in range(1, N):
         if string[i] != string[i - 1]:
-            alternating = False
+            outputs.append(False)
             break
         elif string[i] not in light:
             light.add(string[i])
