@@ -12,8 +12,10 @@ def initial_check(list, char1, char2):
             truth1 = False
     
     for r in range(1, length, 2):
-        if list[r] != char2:
+        if list[r] != char2 or list[r]:
             truth2 = False
+        if list[r] == char1:
+            truth1 = False
 
     if truth1 and truth2:
         return False
@@ -45,13 +47,13 @@ for string in inputs:
     if initial_check(string, char1, char2):
         print("The letters are alternating")
         if (string.count(char1) > 1 and string.count(char2) < 2) or (string.count(char2) > 1 and string.count(char1) < 2):
-            print("T")
-        else:
             print("F")
+        else:
+            print("T")
 
     else:
         # Not alternating
-        print("F")
+        print("T")
     
 
     # for i in range(1, N):
