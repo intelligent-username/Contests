@@ -29,5 +29,4 @@ for string in inputs:
         
     outputs.append(alternating)
 
-
     print("T" if alternating else "F")
