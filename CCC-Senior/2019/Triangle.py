@@ -8,8 +8,4 @@ triangle = []
 max_sum = 0
 for _ in range(N):
     triangle.append(list(map(int, input().split())))
-
-for __ in triangle:
-    for ___ in __:
-        print(f"  {___}", end = "")
-    print("\n")
+    # How is the sum calculated!? Unclear
