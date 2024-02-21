@@ -35,6 +35,11 @@ def prime_finder(num):
             return False
         temp += 2
     
+    if temp == num:
+        return [temp, temp]
+    
+    
+    
 
 if __name__ == "__main__":
     main()
