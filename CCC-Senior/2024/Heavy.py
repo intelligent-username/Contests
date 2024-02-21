@@ -23,9 +23,13 @@ for string in inputs:
             break
         elif string[i] not in light:
             light.add(string[i])
+        elif string[i] in heavy:
+            for r in range(0, N, 2):
+                
+        
         else: # Final condition; it's in light, so must be added to heavy
             heavy.add(string[i])
         
-        for r in range
+        
         
     print("T" if alternating else "F")
