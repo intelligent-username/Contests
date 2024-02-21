@@ -25,6 +25,7 @@ for string in inputs:
             light.add(string[i])
         else: # Final condition; it's in light, so must be added to heavy
             heavy.add(string[i])
-        for i in range
+        
+        for r in range
         
     print("T" if alternating else "F")
