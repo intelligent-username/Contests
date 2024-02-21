@@ -30,8 +30,8 @@ for _ in range(T):
 
 # Output
 for string in inputs:
-    char1 = list[0]
-    char2 = list[1]
+    char1 = string[0]
+    char2 = string[1]
     if initial_check(string, char1, char2):
         print("The letters are alternating")
         if (string.count(char1) > 1 and string.count(char2) < 2) or (string.count(char2) > 1 and string.count(char1) < 2):
