@@ -5,8 +5,11 @@ def initial_check(list):
     char2 = list[1]
     length = len(list)
     for j in range(0, length, 2):
-        if list[j] != char1 and list[j+1] != char2:
-            return False
+        try:
+            if list[j] != char1 and list[j+1] != char2:
+                return False
+        except:
+            pass
     
     return True
 
