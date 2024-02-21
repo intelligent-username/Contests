@@ -4,6 +4,7 @@
 # Otherwise it's light
 
 # Input
+ 
 T, N = list(map(int, input().split()))
 inputs = []
 outputs = []
