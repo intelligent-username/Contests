@@ -37,12 +37,10 @@ outputs = []
 
 # Collect input strings
 for _ in range(T):
-    inputs.append(input().strip())
+    inputs.append(input())
 
 # Output
 for string in inputs:
-    heavy = set()
-    light = set()
 
     char1 = string[0]
     char2 = string[1]
