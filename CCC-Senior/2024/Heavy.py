@@ -4,8 +4,6 @@ def initial_check(list):
     char1 = list[0]
     char2 = list[1]
     length = len(list)
-    # temp = ""
-    # temp2 = ""
     for j in range(0, length, 2):
         if list[j] != char1 or list[j+1] != char2:
             return False
