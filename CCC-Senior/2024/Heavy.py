@@ -1,74 +1,40 @@
-# Heavy-Light Composition
-
-# Check if alternating letters exist
-def initial_check(list, char1, char2):
+def initial_check(string, char1, char2):
+    for i in range(0, len(string), 2):
+        if string[i] != char1:
+            return False
     
-    length = len(list)
-    truth1 = True
-    truth2 = True
+    for j in range(1, len(string), 2):
+        if string[j] != char2:
+            return False
 
-    for x in range(0, length, 2):
-        if list[x] != char1:
-            truth = False
-            break
-    
-    for r in range(1, length, 2):
-        if list[r] != char2:
-            truth2 = False
-            break
+    return True
 
-    if truth1 and truth2:
-        return False
-    elif truth1:
-        truth1
-    elif truth2:
-        return truth2
-    return False
+def easy_heavy(T, N, strings):
+    results = []
 
-# A letter is heavy if it appears more than once
-# Otherwise it's light
+    for s in strings:
+        char1 = s[0]
+        char2 = s[1]
+
+        if initial_check(s, char1, char2):
+            if (s.count(char1) > 1 and s.count(char2) < 2) or (s.count(char2) > 1 and s.count(char1) < 2):
+                results.append("T")
+            else:
+                results.append("F")
+        else:
+            results.append("F")
+
+    return results
 
 # Input
-
- 
 T, N = list(map(int, input().split()))
 inputs = []
-outputs = []
 
 # Collect input strings
 for _ in range(T):
     inputs.append(input())
 
 # Output
-for string in inputs:
-
-    char1 = string[0]
-    char2 = string[1]
-    if initial_check(string, char1, char2):
-        print("The letters are alternating")
-        if (string.count(char1) > 1 and string.count(char2) < 2) or (string.count(char2) > 1 and string.count(char1) < 2):
-            print("T")
-        else:
-            print("F")
-
-    else:
-        print("The letters aren't alternating")
-        print("F")
-    
-
-    # for i in range(1, N):
-    #     if string[i] != string[i+2] and string[i+1] != string[i+1]:
-    #         otuputs.append(False)
-    #         break
-    #     if string[i] == string[i - 1]:
-    #         outputs.append(False)
-    #         break
-    #     elif string[i] not in light:
-    #         light.add(string[i])
-        
-    #     elif string[i] in heavy:
-            
-        
-    #     else: # Final condition; it's in light, so must be added to heavy
-    #         heavy.add(string[i])
-        
+outputs = easy_heavy(T, N, inputs)
+for result in outputs:
+    print(result)
