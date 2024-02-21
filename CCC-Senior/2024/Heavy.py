@@ -22,7 +22,6 @@ def initial_check(list, char1, char2):
         truth1
     elif truth2:
         return truth2
-
     return False
 
 # A letter is heavy if it appears more than once
