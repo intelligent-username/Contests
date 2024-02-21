@@ -24,7 +24,7 @@ for string in inputs:
             break
         elif string[i] not in light:
             light.add(string[i])
-        elif string[i] not in heavy:
+        elif string[i] in heavy:
             heavy.add(string[i])
         else:
             alternating = False
