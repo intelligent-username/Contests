@@ -6,6 +6,7 @@
 # Input
 T, N = list(map(int, input().split()))
 inputs = []
+outputs = []
 
 # Collect input strings
 for _ in range(T):
@@ -19,13 +20,10 @@ for string in inputs:
 
     for i in range(1, N):
         if string[i] != string[i - 1]:
-            alternating = False
+            outputs.append(False)
             break
         elif string[i] not in light:
             light.add(string[i])
-        elif string[i] in heavy:
-            for r in range(0, N, 2):
-                
         
         else: # Final condition; it's in light, so must be added to heavy
             heavy.add(string[i])
