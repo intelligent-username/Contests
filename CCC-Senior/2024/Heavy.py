@@ -27,12 +27,6 @@ for _ in range(T):
 for string in inputs:
     if initial_check(string):
         print("The letters are alternating")
-        if (string.count(string[0]) > 1 and string.count(string[1]) < 2) or (string.count(string[1]) > 1 and string.count(string[0] < 2)):
-            print("The letters alternate and heavy")
-            print("T")
-        else:
-            print("Alternating but invalid")
-            print("F")
     else:
         print("The letters aren't alternating")
         print("F")
