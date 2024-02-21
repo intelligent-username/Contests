@@ -6,10 +6,9 @@
 # A combination of two primes
 # Such that the average of these primes
 # Is that number
+# The given numbers will be greater than 4
 def is_prime(num):
-    if num < 2:
-        return False
-    for i in range(2, int(num**0.5) + 1):
+    for i in range(3, int(num**0.5) + 1):
         if num % i == 0:
             return False
     return True
