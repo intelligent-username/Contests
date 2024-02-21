@@ -5,4 +5,10 @@
 
 T, N = list(map(int,input().split()))
 
+inputs = []
+heavy = []
 
+for x in range(T):
+    inputs.append(input().split())
+
+# Determine if they're alternating heavy letters
