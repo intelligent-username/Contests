@@ -8,7 +8,6 @@ T, N = list(map(int, input().split()))
 inputs = []
 heavy = set()
 light = set()
-outputs = []
 
 # Collect input strings
 for _ in range(T):
@@ -27,6 +26,4 @@ for string in inputs:
         else:
             heavy.add(string[i])
         
-    outputs.append(alternating)
-
     print("T" if alternating else "F")
