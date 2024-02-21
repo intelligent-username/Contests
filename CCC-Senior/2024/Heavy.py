@@ -4,18 +4,19 @@ def initial_check(list):
     length = len(list)
     temp = ""
     temp2 = ""
+    truth = True
     for j in range(0, length, 2):
         if temp == "":
             temp = list[j]
         elif list[j] != temp:
-            return False
+            truth = False
     for r in range(1, length, 2):
         if temp2 == "":
             temp2 = list[r]
         elif list[r] != temp:
-            return False
+            truth = False
     
-    return True
+    return truth
 
 # A letter is heavy if it appears more than once
 # Otherwise it's light
@@ -35,8 +36,10 @@ for string in inputs:
     if initial_check(string):
         print("The letters are alternating")
         if (string.count(string[0]) > 1 and string.count(string[1]) < 2) or (string.count(string[1]) > 1 and string.count(string[0] < 2)):
+            print("The letters alternate and heavy")
             print("T")
         else:
+            print("Alternating but invalid")
             print("F")
     else:
         print("The letters aren't alternating")
