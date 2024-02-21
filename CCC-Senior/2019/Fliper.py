@@ -1,5 +1,5 @@
 # Flipper: COMPLETE
-# https://www.cemc.uwaterloo.ca/contests/computing/past_ccc_contests/2019/stage%201/juniorEF.pdf #4
+# https://cemc.uwaterloo.ca/contests/computing/past_ccc_contests/2019/stage%201/seniorEF.pdf #1
 
 # H = Horizontal Flip
 # V = Vertical Flip
