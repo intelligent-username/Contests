@@ -33,11 +33,13 @@ for _ in range(T):
 # Output
 for string in inputs:
     if initial_check(string):
+        print("The letters are alternating")
         if (string.count(string[0]) > 1 and string.count(string[1]) < 2) or (string.count(string[1]) > 1 and string.count(string[0] < 2)):
             print("T")
         else:
             print("F")
     else:
+        print("The letters aren't alternating")
         print("F")
     
 
