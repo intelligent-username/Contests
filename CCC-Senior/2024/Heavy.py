@@ -20,14 +20,14 @@ for string in inputs:
 
     for i in range(1, N):
         if string[i] != string[i - 1]:
-            outputs.append(False)
+            alternating = False
             break
         elif string[i] not in light:
             light.add(string[i])
-        elif string[i] in heavy:
-            heavy.add(string[i])
         else:
-            alternating = False
-            break
+            heavy.add(string[i])
+        
+    outputs.append(alternating)
+
 
     print("T" if alternating else "F")
