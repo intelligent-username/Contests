@@ -1,23 +1,16 @@
 # Heavy-Light Composition
 
 def initial_check(list):
+    char1 = list[0]
+    char2 = list[1]
     length = len(list)
-    temp = ""
-    temp2 = ""
-    truth = True
+    # temp = ""
+    # temp2 = ""
     for j in range(0, length, 2):
-        if temp == "":
-            temp = list[j]
-        elif list[j] != temp:
-            truth = False
-    for r in range(1, length, 2):
-        if temp2 == "":
-            temp2 = list[r]
-            truth = True
-        elif list[r] != temp:
-            truth = False
+        if list[j] != char1 or list[j+1] != char2:
+            return False
     
-    return truth
+    return True
 
 # A letter is heavy if it appears more than once
 # Otherwise it's light
