@@ -8,11 +8,13 @@ def initial_check(list):
     for j in range(0, length, 2):
         if temp == "":
             temp = list[j]
+            truth = True
         elif list[j] != temp:
             truth = False
     for r in range(1, length, 2):
         if temp2 == "":
             temp2 = list[r]
+            truth = True
         elif list[r] != temp:
             truth = False
     
