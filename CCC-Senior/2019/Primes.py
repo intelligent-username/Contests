@@ -20,9 +20,18 @@ def find_primes_for_average(N):
         B = N - A
         if is_prime(A) and is_prime(B):
             return [A, B]
+    
+    return False
+
+answers = ""
 
 T = int(input())  # Number of test cases
 for _ in range(T):
     N = int(input())  # Input N for each test case
     primes = find_primes_for_average(N)
-    print(primes[0], primes[1])
+    answers += f"{primes[0]} {primes[1]}"
+    answers += "\n"
+
+print(answers)
+
+
