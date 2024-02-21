@@ -6,3 +6,5 @@ people = []
 
 for _ in range(N):
     people.append(input())
+
+
