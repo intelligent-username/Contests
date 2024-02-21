@@ -32,8 +32,8 @@ for _ in range(T):
 
 # Output
 for string in inputs:
-    if intial_check(stirng):
-        if string.count(string[0]) > 1 or string.count(stirng[1]) > 1:
+    if initial_check(string):
+        if (string.count(string[0]) > 1 and string.count(string[1]) < 2) or (string.count(string[1]) > 1 and string.count(string[0] < 2)):
             print("T")
         else:
             print("F")
@@ -57,5 +57,3 @@ for string in inputs:
     #     else: # Final condition; it's in light, so must be added to heavy
     #         heavy.add(string[i])
         
-        
-    print("T" if alternating else "F")
