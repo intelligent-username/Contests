@@ -20,6 +20,7 @@ def initial_check(list, char1, char2):
 # Otherwise it's light
 
 # Input
+
  
 T, N = list(map(int, input().split()))
 inputs = []
@@ -31,6 +32,9 @@ for _ in range(T):
 
 # Output
 for string in inputs:
+    heavy = set()
+    light = set()
+
     char1 = string[0]
     char2 = string[1]
     if initial_check(string, char1, char2):
