@@ -15,10 +15,10 @@ for _ in range(T):
 
 # Output
 for string in inputs:
-    alternating = False    
+    alternating = False
 
     for i in range(1, N):
-        if string[i] == string[i - 1]:
+        if string[i] != string[i - 1]:
             alternating = False
             break
         elif string[i] not in light:
