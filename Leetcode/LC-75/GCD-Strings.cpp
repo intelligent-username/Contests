@@ -1,3 +1,4 @@
+#include <stdin>
 #include <string>
 
 class Solution {
