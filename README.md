@@ -3,11 +3,12 @@
 ## The ones I've Practiced With
 
 ### Complete/Incomplete Status Marked at the top
-### Unmarked = complete
+
+### * Unmarked = complete
 
 ### Link/resource is also placed at the top
 
-# So far Includes:
+# So far Includes
 
 ## UWaterloo
 

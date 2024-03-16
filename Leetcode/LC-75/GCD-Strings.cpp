@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/greatest-common-divisor-of-strings/submissions/1205371531/?envType=study-plan-v2&envId=leetcode-75
 #include <string>
 
 class Solution {
