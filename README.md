@@ -8,14 +8,13 @@
 
 ### Link/resource is also placed at the top
 
-# So far Includes
+## So  Far Includes
 
-## UWaterloo
+### UWaterloo
 
-### CCC Junnior & CCC Senior 
+- CCC Junnior & CCC Senior
 
 ## LeetCode
 
-### LC-75
-
-### Pandas
+- LC-75
+- Pandas
