@@ -1,6 +1,6 @@
 # Contests
 
-## Contests I've Practiced With
+## The ones I've Practiced With
 
 ### Complete/Incomplete Status Marked at the top
 ### Unmarked = complete
