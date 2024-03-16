@@ -3,11 +3,18 @@
 ## Contests I've Practiced With
 
 ### Complete/Incomplete Status Marked at the top
+### Unmarked = complete
 
 ### Link/resource is also placed at the top
 
-## So far Includes
+# So far Includes:
 
-### CCC Junnior (Waterloo)
+## UWaterloo
 
-### CCC Senior (Waterloo)
+### CCC Junnior & CCC Senior 
+
+## LeetCode
+
+### LC-75
+
+### Pandas
