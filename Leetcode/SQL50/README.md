@@ -1,6 +1,6 @@
 # SQL50
 
-## Simple SQL Course/Challenges to not get rusty
+## Simple MySQL Course/Challenges as quick refresher
 
 ### Posted for logging's sake
 
