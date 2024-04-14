@@ -1,4 +1,5 @@
 -- https://leetcode.com/problems/article-views-i/?envType=study-plan-v2&envId=top-sql-50
+/* Article Views */
 
 SELECT DISTINCT author_id AS id
 FROM Views
