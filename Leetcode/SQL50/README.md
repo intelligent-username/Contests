@@ -1,7 +1,5 @@
 # SQL50
 
-## Simple MySQL Course/Challenges as quick refresher
+## Coursework
 
-### Posted for logging's sake
-
-#### Link at the top
+### Links Provided in the first line
