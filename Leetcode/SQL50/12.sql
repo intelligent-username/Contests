@@ -1,5 +1,6 @@
 /* https://leetcode.com/problems/students-and-examinations/?envType=study-plan-v2&envId=top-sql-50
 Student and Examinations */
+--      COMPLETE
 
 SELECT e.name, b.bonus
 FROM Employee e

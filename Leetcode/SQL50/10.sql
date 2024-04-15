@@ -1,5 +1,6 @@
 /* https://leetcode.com/problems/average-time-of-process-per-machine/?envType=study-plan-v2&envId=top-sql-50
 Average Processing Time Per Machine */
+--      COMPLETE
 
 SELECT
     machine_id,

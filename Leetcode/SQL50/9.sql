@@ -1,5 +1,6 @@
 -- https://leetcode.com/problems/rising-temperature/?envType=study-plan-v2&envId=top-sql-50
 -- Rising temperature
+--      COMPLETE
 
 SELECT id
 FROM Weather w
