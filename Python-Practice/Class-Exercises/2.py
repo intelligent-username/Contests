@@ -7,15 +7,15 @@ class example:
         self.b = b
         self.c = c
 
-    if x % 2:
-        # X is odd
-        d = b * c + a
-    else:
-        d = b * a + c
+        if x % 2:
+            # X is odd
+            self.d = b * c + a
+        else:
+            self.d = b * a + c
 
 
     def display(self):
-        print("d =", self.b * self.a + self.c)
+        print("d =", self.d)
     
         
 example(1,2,3)
