@@ -1,13 +1,15 @@
 from random import randint
 
 class example:
-    x = randint(1, 100)
     def __init__(self, a, b = 12, c = 33):
         self.a= a
         self.b = b
         self.c = c
 
+        x = randint(1, 100)
+
         if x % 2:
+            
             # X is odd
             self.d = b * c + a
         else:
