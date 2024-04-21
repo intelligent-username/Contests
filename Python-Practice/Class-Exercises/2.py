@@ -15,7 +15,7 @@ class example:
 
 
     def display(self):
-        print("d =", b * a + c)
+        print("d =", self.b * self.a + self.c)
     
         
 example(1,2,3)
