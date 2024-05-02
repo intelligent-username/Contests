@@ -6,4 +6,4 @@ class Car:
 
 Whip = Car("D37L55", "Lambo", "2025")
 
-print(Car.__dict__)
+print(Whip.__dict__)
