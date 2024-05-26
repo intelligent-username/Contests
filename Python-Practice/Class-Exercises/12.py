@@ -48,7 +48,7 @@ print("Socrates took a political science class")
 Socrates.update_gpa(75)
 print("Unfortunately he got a 75%, and his new GPA is " + str(Socrates.gpa))
 
-print("\n\n--------------------\n---------------------\n\n")
+print("\n\n--------------------\n------------------\n")
 
 print("Meanwhile, Jimmy here is taking all of the same courses. Here are his statistics")
 
