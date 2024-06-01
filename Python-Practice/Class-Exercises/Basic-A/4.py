@@ -15,7 +15,6 @@ class Subsetter:
             self.backwards(i + 1, current)
             current.pop()
 
-# Example usage:
 generator = Subsetter([4, 5, 6])
 subsets = generator.get_subsets()
 print(subsets)
