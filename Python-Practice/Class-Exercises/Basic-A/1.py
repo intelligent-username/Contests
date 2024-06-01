@@ -7,13 +7,7 @@ class IntegerToRomanConverter:
         ]
     
     def convert(self, num):
-        """
-        Convert an integer to a Roman numeral.
-        
-        :param num: Integer to convert (must be between 1 and 3999).
-        :return: A string representing the Roman numeral.
-        """
-        
+        # Int to roman
         roman_numeral = []
         for value, symbol in self.roman_numerals:
             while num >= value:
