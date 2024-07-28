@@ -1,6 +1,6 @@
 -- https://leetcode.com/problems/monthly-transactions-i/description/?envType=study-plan-v2&envId=top-sql-50
 -- Monthly Transactions
--- IN PROGRESS
+-- COMPLETE
 
 SELECT 
     DATE_FORMAT(trans_date, '%Y-%m') AS month,

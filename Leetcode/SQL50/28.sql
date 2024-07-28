@@ -1,5 +1,6 @@
 -- https://leetcode.com/problems/biggest-single-number/description/?envType=study-plan-v2&envId=top-sql-50
 -- Biggest Single Number
+-- COMPLETE
 
 SELECT MAX(num) AS num
 FROM (

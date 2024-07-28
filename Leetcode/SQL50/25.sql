@@ -1,3 +1,7 @@
+-- https://leetcode.com/problems/product-sales-analysis-iii/?envType=study-plan-v2&envId=top-sql-50
+-- Product Sales Analysis III
+-- COMPLETE
+
 SELECT 
     s.product_id, 
     MIN(s.year) AS first_year, 

@@ -1,4 +1,5 @@
 -- https://leetcode.com/problems/game-play-analysis-iv/?envType=study-plan-v2&envId=top-sql-50
+-- Game Play Analysis 4
 -- COMPLETE
 
 WITH first_login AS (

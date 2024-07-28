@@ -1,6 +1,6 @@
 -- https://leetcode.com/problems/immediate-food-delivery-ii/description/?envType=study-plan-v2&envId=top-sql-50
--- Immediate Food Delivery 2
--- IN PROGRESS
+-- Immediate Food Delivery II
+-- COMPLETE
 
 WITH first_orders AS (
     SELECT 
