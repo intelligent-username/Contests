@@ -18,3 +18,7 @@
 
 - LC-75
 - Pandas
+- SQL50
+- Amazon 23
+- 30 Days Pandas
+- 30 Days JS
