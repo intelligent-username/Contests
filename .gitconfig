@@ -1,0 +1,4 @@
+[alias]
+    acp = "!f() { git add . && git commit -m \"${1:-Added new}\" && git push; }; f"
+    co = "checkout"
+
