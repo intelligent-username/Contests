@@ -2,7 +2,7 @@
 // COMPLETE
 // Make it more efficient later rn quick testing LeetCode
 
-public class _1Merge.java {
+public class _1Merge {
     public static String main(String word1, String word2) {
         StringBuilder combined = new StringBuilder();
         int l1 = word1.length();
