@@ -1,9 +1,9 @@
 // https://leetcode.com/problems/greatest-common-divisor-of-strings/?envType=study-plan-v2&envId=leetcode-75
-// IN PROGRESS
+// COMPLETE
 
 import java.util.*;
 
-public class Solution {
+public class _2GCDStrings {
     private static boolean checkDivides(String s, String t) {
         int repeatCount = s.length() / t.length();
         StringBuilder sb = new StringBuilder();
