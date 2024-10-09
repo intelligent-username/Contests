@@ -22,3 +22,7 @@
 - Amazon 23
 - 30 Days Pandas
 - 30 Days JS
+
+## Python-Practice
+
+- Random Python code for practice, nothing special or challenging really

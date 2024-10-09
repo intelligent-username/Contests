@@ -1,6 +1,8 @@
 # https://leetcode.com/problems/product-of-array-except-self/?envType=study-plan-v2&envId=leetcode-75
 # Product of Array Except Self
 
+from typing import List
+
 class Solution:
     def productExceptSelf(self, nums: List[int]) -> List[int]:
         n = len(nums)
