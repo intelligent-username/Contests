@@ -17,7 +17,7 @@ This repo is mainly for storing references and progress over time.
 - CCC Junnior
 - CCC Senior
 
-Where contests are ordered by year.
+With contests being ordered by year.
 
 ### LeetCode
 
@@ -41,4 +41,7 @@ Where contests are ordered by year.
 
 - DSA and coding challenges.
 
-So far only Python.
+Only includes Python so far.
+
+---
+New resources will be added here as I find/use them.
