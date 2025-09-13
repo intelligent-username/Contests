@@ -1,20 +1,25 @@
 # Contests
 
-## The ones I've Practiced With
+## This repository contains *some* of the sources that I've used to practice DSA and coding problems. Feel free to use this as a reference
 
 ### Complete/Incomplete Status Marked at the top
 
-### * Unmarked = complete
+#### *Note: Unmarked = complete
 
-### Link/resource is also placed at the top
+Effort has been made place the link/resource at the top of each file.
+Each folder contains README with basic information.
+This repo is mainly for storing references and progress over time.
 
-## So  Far Includes
+## So Far, Includes
 
 ### UWaterloo
 
-- CCC Junnior & CCC Senior
+- CCC Junnior
+- CCC Senior
 
-## LeetCode
+Where contests are ordered by year.
+
+### LeetCode
 
 - LC-75
 - Pandas
@@ -23,6 +28,17 @@
 - 30 Days Pandas
 - 30 Days JS
 
-## Python-Practice
+### NeetCode
 
-- Random Python code for practice, nothing special or challenging really
+- A more 'beginner-friendly' version of LeetCode, structured for learning.
+- This is used for review, basic foundations, and 'easy practice'
+
+### Python-Practice
+
+- Random Python code for practice, and OOP practice.
+
+### HackerRank
+
+- DSA and coding challenges.
+
+So far only Python.
