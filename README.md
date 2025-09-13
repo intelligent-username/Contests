@@ -45,3 +45,4 @@ Only includes Python so far.
 
 ---
 New resources will be added here as I find/use them.
+`*Note:` Many folders are straight up just boilerplate right now. More will be added as I continue practicing.
