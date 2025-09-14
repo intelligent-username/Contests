@@ -1,7 +1,7 @@
 // https://leetcode.com/problems/greatest-common-divisor-of-strings/?envType=study-plan-v2&envId=leetcode-75
 // COMPLETE
 
-import java.util.*;
+// import java.util.*;
 
 public class _2GCDStrings {
     private static boolean checkDivides(String s, String t) {
