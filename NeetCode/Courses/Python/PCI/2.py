@@ -1,16 +1,17 @@
-# https://neetcode.io/problems/python-sort-ascending
+# https://neetcode.io/problems/python-sort-descending
 
 from typing import List
 
 
 def sort_words(words: List[str]) -> List[str]:
-    return sorted(words)
+    return sorted(words, key=None, reverse=True)
 
 def sort_numbers(numbers: List[int]) -> List[int]:
-    return sorted(numbers)
+    return sorted(numbers, key=None, reverse=True)
 
 def sort_decimals(numbers: List[float]) -> List[float]:
-    return sorted(numbers)
+    return sorted(numbers, key=None, reverse=True)
+
 
 
 # do not modify below this line

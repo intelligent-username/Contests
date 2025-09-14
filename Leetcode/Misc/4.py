@@ -4,27 +4,33 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
+
 class Solution(object):
     def verticalTraversal(self, root):
         """
         :type root: TreeNode
         :rtype: List[List[int]]
         """
-        # Find the height of the tree
-        h = 1
-        current = root
-        while root.left not None
-            h += 1
-            current = current.left
-        
-        big_list = []
-        temp = []
-        current = root
+        if not root:
+            return []
 
-        for x in range(h):
-            temp += current.value
+        import collections
+        node_list = []
 
-            # VERY INCOMPLETE STOPPED HERE DUE TO BUSY
+        def dfs(node, row, col):
+            if node:
+                node_list.append((col, row, node.val))
+                dfs(node.left, row + 1, col - 1)
+                dfs(node.right, row + 1, col + 1)
 
+        dfs(root, 0, 0)
+        node_list.sort()
 
-        return big_list
+        res = []
+        prev_col = float('-inf')
+        for col, row, value in node_list:
+            if col != prev_col:
+                res.append([])
+                prev_col = col
+            res[-1].append(value)
+        return res

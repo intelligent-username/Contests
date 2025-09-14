@@ -43,6 +43,10 @@ With contests being ordered by year.
 
 Only includes Python so far.
 
+### Misc
+
+- Random stuff I thought to implement while practicing. Things like sorting algorithms, data structures, etc. from scratch. Often in Python but sometimes in C++.
+
 ---
 New resources will be added here as I find/use them.
 `*Note:` Many folders are straight up just boilerplate right now. More will be added as I continue practicing.
