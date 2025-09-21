@@ -1,4 +1,4 @@
--- https://leetcode.com/problems/game-play-analysis-iv/?envType=study-plan-v2&envId=top-sql-50
+-- https://leetcode.com/problems/game-play-analysis-iv/
 -- Game Play Analysis 4
 -- COMPLETE
 

@@ -1,4 +1,4 @@
--- https://leetcode.com/problems/primary-department-for-each-employee/description/?envType=study-plan-v2&envId=top-sql-50
+-- https://leetcode.com/problems/primary-department-for-each-employee/
 -- Primary Department for Each Employee
 -- COMPLETE
 

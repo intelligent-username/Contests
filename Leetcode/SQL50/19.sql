@@ -1,4 +1,4 @@
--- https://leetcode.com/problems/queries-quality-and-percentage/submissions/1236927929/?envType=study-plan-v2&envId=top-sql-50
+-- https://leetcode.com/problems/queries-quality-and-percentage/
 -- BEST QUERIES
 -- COMPLETE
 

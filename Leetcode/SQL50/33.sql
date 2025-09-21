@@ -1,4 +1,4 @@
--- https://leetcode.com/problems/consecutive-numbers/submissions/1343647182/?envType=study-plan-v2&envId=top-sql-50
+-- https://leetcode.com/problems/consecutive-numbers/
 -- CONSECUTIVE NUMBERS
 -- COMPLETE
 

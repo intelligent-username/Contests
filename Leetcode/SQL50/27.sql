@@ -1,4 +1,4 @@
--- https://leetcode.com/problems/find-followers-count/?envType=study-plan-v2&envId=top-sql-50
+-- https://leetcode.com/problems/find-followers-count/
 -- Find Follower Count
 -- COMPLETE
 

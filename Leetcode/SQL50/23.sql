@@ -1,4 +1,4 @@
--- https://leetcode.com/problems/number-of-unique-subjects-taught-by-each-teacher/?envType=study-plan-v2&envId=top-sql-50
+-- https://leetcode.com/problems/number-of-unique-subjects-taught-by-each-teacher/
 -- Number of Unique Subjects Taught by Each Teacher
 -- COMPLETE
 

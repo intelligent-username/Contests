@@ -1,4 +1,4 @@
--- https://leetcode.com/problems/the-number-of-employees-which-report-to-each-employee/description/?envType=study-plan-v2&envId=top-sql-50
+-- https://leetcode.com/problems/the-number-of-employees-which-report-to-each-employee/
 -- The Number of Employees Which Report to Each Employee
 -- COMPLETE
 
