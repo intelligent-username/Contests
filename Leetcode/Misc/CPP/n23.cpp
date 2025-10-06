@@ -1,5 +1,5 @@
 // https://leetcode.com/problems/best-time-to-buy-and-sell-stock
-// EXTREMELY EASY PROBLEM I KNOW. I NEED TO START DOING MORE DIFFICULT ONES. EVENTUALLY.
+// Exceedingly easy problem. Need to start doing more difficult ones. Eventually.
 // COMPLETE
 
 #include <vector>
