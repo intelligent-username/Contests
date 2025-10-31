@@ -4,6 +4,8 @@
 
 ## This repository contains *some* of the sources that I've used to practice DSA and coding problems. Feel free to use this as a reference
 
+The goal is to spend at least 30 minutes every single day practicing. No days off. No cheats.
+
 ### Complete/Incomplete Status Marked at the top
 
 #### *Note: Unmarked = complete
