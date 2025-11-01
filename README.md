@@ -1,6 +1,6 @@
 # Contests
 
-![Contests](img.jpg)
+![The thinker (Portrait of Ivan Ilyin), 1921](img.jpg)
 
 ## This repository contains *some* of the sources that I've used to practice DSA and coding problems. Feel free to use this as a reference
 
