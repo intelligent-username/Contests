@@ -1,5 +1,6 @@
 // https://leetcode.com/problems/sqrtx
-// TWO solutions today :O
+
+// COMPLETE
 
 class Solution {
 public:

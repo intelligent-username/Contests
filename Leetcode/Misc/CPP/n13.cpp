@@ -1,11 +1,14 @@
 // Daily problem for September 21st, 2025
 // https://leetcode.com/problems/design-movie-rental-system/
 // COMPLETE
+
 #include <tuple>
 #include <set>
 #include <map>
 #include <vector>
 #include <utility>
+
+using namespace std;
 
 class MovieRentingSystem {
 public:

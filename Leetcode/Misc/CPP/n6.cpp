@@ -1,6 +1,8 @@
 // https://leetcode.com/problems/palindrome-number/
 // NOTE: ON LEETCODE, SOME INPUTS ARE INTEGERS BIGGER THAN 2^31
 
+// Complete
+
 #include <stdio.h>
 
 class Solution {

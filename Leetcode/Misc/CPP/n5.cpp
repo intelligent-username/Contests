@@ -1,5 +1,8 @@
 // https://leetcode.com/problems/length-of-last-word/
 // 'Count the length of the last word in the string'
+
+// Complete
+
 #include <string>
 #include <iostream>
 using namespace std;
