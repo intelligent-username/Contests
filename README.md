@@ -14,7 +14,7 @@ Effort has been made place the link/resource at the top of each file.
 Each folder contains README with basic information.
 This repo is mainly for storing references and progress over time.
 
-## So Far, Includes
+## So Far, This repo includes
 
 ### UWaterloo
 
