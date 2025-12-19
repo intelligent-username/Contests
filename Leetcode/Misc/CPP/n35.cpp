@@ -1,3 +1,18 @@
+// https://leetcode.com/problems/find-all-people-with-secret
+// Daily problem
+
+// COMPLETE
+
+#include <vector>
+#include <algorithm>
+#include <set>
+#include <unordered_map>
+#include <unordered_set>
+#include <utility>
+#include <queue>
+
+using namespace std;
+
 class Solution {
 public:
     vector<int> findAllPeople(int n, vector<vector<int>>& meetings, int firstPerson) {
@@ -13,9 +28,9 @@ public:
         // Sort by time for convenience
         // Maybe sorting isn't necessary but I can't think of any other way
         sort(meetings.begin(), meetings.end(), 
-        [t](const vector<int>& a, vector<int>& b) {
-            return a[t] <= b[t];
-        })
+        [t](const vector<int>& a, const vector<int>& b) {
+            return a[t] < b[t]; // Just learnt this: must using strict ordering!!
+        });
 
         int i = 0;
         int len = meetings.size();
