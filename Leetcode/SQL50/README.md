@@ -1,5 +1,3 @@
 # SQL50
 
-## Coursework
-
-### Links Provided in the first line
+[https://leetcode.com/studyplan/top-sql-50/](https://leetcode.com/studyplan/top-sql-50/)
