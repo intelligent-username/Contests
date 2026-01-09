@@ -1,6 +1,6 @@
 // https://leetcode.com/problems/find-the-difference-of-two-arrays/
 
-// Finding the difference between two arrays
+// Find the difference of two arrays
 // Really enjoying these easy problems
 
 // Complete
