@@ -1,6 +1,6 @@
 # NeetCode Practice
 
-![The NeetCode Roadmap](roadmap.png)
+![The NeetCode Roadmap](../imgs/roadmap.png)
 
 Solutions to NeetCode problems and study plans. Multiple languages will be used. Links to problems are included in each file.
 Some solutions are not direct problems, but problem-adjacent (i.e. implementing something that's abstracted in the problem, etc.)

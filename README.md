@@ -1,6 +1,6 @@
 # Contests
 
-![The thinker (Portrait of Ivan Ilyin), 1921](img.png)
+![The thinker (Portrait of Ivan Ilyin), 1921](imgs/img.png)
 
 ## This repository contains *some* of the sources that I've used to practice DSA. Feel free to use this as a reference
 
