@@ -8,9 +8,9 @@ Links included at the top.
 - The file number will not match the question number on LeetCode. It's just the order in which I solved them.
 - It's possible that I've solved some of the questions here elsewhere as well.
 
-## Languages Used
+## Languages & Naming Convention
 
-- Bash (basically just regex practice)
-- C++
-- Java
-- Python
+- Bash (basically just regex practice): numbered by the order in which I solved them, with an n in the beginning for compilation and `.sh` extension
+- C++: goes up in ascending order (the number on the problem is irrelevant). Matches order of java when applicable
+- Java: numbered by the order in which I solved them, with an n in the beginning for compilation and `.class` files that are compiled
+- Python: just writes the official problem number as the file's name

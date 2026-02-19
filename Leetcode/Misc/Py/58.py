@@ -1,6 +1,8 @@
 # https://leetcode.com/problems/length-of-last-word/description/
+
 # Given a string s consisting of words and spaces, return the length of the last word in the string.
 
+# Complete
 
 class Solution(object):
     def lengthOfLastWord(self, s):

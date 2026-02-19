@@ -1,5 +1,7 @@
 # https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/
 
+# Complete
+
 class Solution:
     def minRemoveToMakeValid(self, s: str) -> str:
         stack = []

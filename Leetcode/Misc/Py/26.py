@@ -1,5 +1,8 @@
 # https://leetcode.com/problems/remove-duplicates-from-sorted-array/
+
 # Remove Duplicates from Sorted Array
+
+# Complete
 
 from typing import List
 

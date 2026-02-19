@@ -1,5 +1,9 @@
-# Problem #1234, medium
 # https://leetcode.com/problems/replace-the-substring-for-balanced-string/
+
+# Problem #1234, medium
+# Replace substring of for a balanced string
+
+# Complete
 
 from collections import Counter
 
