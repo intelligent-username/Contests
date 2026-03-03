@@ -11,6 +11,6 @@ Links included at the top.
 ## Languages & Naming Convention
 
 - Bash (basically just regex practice): numbered by the order in which I solved them, with an n in the beginning for compilation and `.sh` extension
-- C++: goes up in ascending order (the number on the problem is irrelevant). Matches order of java when applicable
+- C++: goes up in ascending order (the number on the problem is irrelevant). Matches order of java when applicable. IDK where the first 4 went.
 - Java: numbered by the order in which I solved them, with an n in the beginning for compilation and `.class` files that are compiled
 - Python: just writes the official problem number as the file's name

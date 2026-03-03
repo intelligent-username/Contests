@@ -14,29 +14,33 @@ class Solution:
         if not root:
             return None
         
-        # Tbh we're best off just constructing it
+        # Honestly, best off just straight up constructing it
+        # Since it's a BST, it's alraedy in order
+        # Just do in-order traversal, that'll append smallest -> biggest
 
         ans = []
 
-        def trav(node):
+        # Passing 'ans' around is SLIGHTLY faster
+        # But not necessary
+        def trav(node, ans):
             if not node: 
                 return None
-            
-            trav(node.left)
+
+            trav(node.left, ans)
             ans.append(node)
-            trav(node.right)
+            trav(node.right, ans)
         
-        def build(start, end):
+        def build(start, end, ans):
 
             if start > end:
                 return None
 
             m = (start + end) // 2
             root = ans[m]
-            root.left = build(start, m-1)
-            root.right = build(m+1, end)
+            root.left = build(start, m-1, ans)
+            root.right = build(m+1, end, ans)
 
             return root
         
-        trav(root)
-        return build(0, len(ans) - 1)
+        trav(root, ans)
+        return build(0, len(ans) - 1, ans)
