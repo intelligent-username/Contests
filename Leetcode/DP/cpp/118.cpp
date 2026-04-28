@@ -1,6 +1,6 @@
 // https://leetcode.com/problems/pascals-triangle
 
-// Complete
+// Completed LeetCode/DP/cpp;  code 97.cpp
 
 class Solution {
 public:
